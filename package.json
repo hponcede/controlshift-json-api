@@ -1,0 +1,22 @@
+{
+  "name": "controlshift-json-endpoints",
+  "version": "1.0.0",
+  "description": "",
+  "source": "lib/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "axios-jsonp": "^1.0.4"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  }
+}
