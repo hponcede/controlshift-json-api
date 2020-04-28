@@ -10,8 +10,13 @@
     "build": "microbundle",
     "dev": "microbundle watch"
   },
-  "author": "",
+  "author": "Hugo Ponce de Leon",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hponcede/controlshift-json-api.git"
+  },
+  "homepage": "https://github.com/hponcede/controlshift-json-api",
   "dependencies": {
     "axios": "^0.19.2",
     "axios-jsonp": "^1.0.4"
