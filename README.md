@@ -19,7 +19,7 @@ Example :
 ```
 import controlshift from 'controlshift-json-endpoint'
 
-const cs = controlshift('your-domain.controlshiftlabs.com)
+const cs = controlshift('your-domain.controlshiftlabs.com')
 ```
 
 `cs` gives access to each endpoint. Each function returns a promise. The resulting JSON data from ControlShift is directly accessible .
